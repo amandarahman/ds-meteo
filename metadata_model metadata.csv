@@ -1,0 +1,6 @@
+Model,LSTM Multivariate
+Window,6
+Forecast Horizon,20 Tahun (240 bulan)
+Parameters,"['TN', 'TX', 'TAVG', 'RH_AVG', 'SS', 'FF_X', 'FF_AVG', 'RR', 'DDD_X_sin', 'DDD_X_cos', 'month_sin', 'month_cos']"
+Scaling,MinMaxScaler
+Evaluation Metrics,"['RMSE', 'MAE', 'R2']"
